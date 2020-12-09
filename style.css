@@ -1,0 +1,114 @@
+body {
+  background-color: lightseagreen;
+  margin: 0;
+}
+
+.section-divider {
+  height: 600px;
+  width: 100%;
+  background-image: cover;
+  background-position: 0% 70%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackbg-text {
+  font-size: 32px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  letter-spacing: 10px;
+}
+
+.top-img {
+  background-image: url("image/BACKGROUND IMG 1.jpg");
+}
+
+.middle-img {
+  background-image: url("image/BACKGROUND IMG 2.png");
+}
+.btm-img {
+  background-image: url("image/BACKGROUND IMG 3.jpg");
+}
+img {
+  width: 100%;
+}
+.sandwich{
+  margin: 0 20%;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description{
+  flex-basis: 60%;
+  align-self: center;
+}
+
+.description-text{
+  margin-left: 3%;
+}
+
+.p-pic{
+  flex-basis: 40%;
+}
+.my-list{
+  flex-basis: 50%;
+  align-self: center;
+}
+.beside-list{
+  flex-basis: 50%;
+}
+
+.column{
+  flex-basis: 25%;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+.footer{
+  background-color: aquamarine;
+  margin-top: 60px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+}
+.footer a{
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+}
+/*Tablet size < 800 px*/
+@media screen and (max-width: 800px) {
+  body {
+    background-color: pink;
+ }
+ .description{
+  flex-basis: 100%;
+}
+
+.p-pic{
+  flex-basis: 100%;
+}
+
+.description-text{
+  margin-left: 3%;
+}
+
+.my-list{
+  flex-basis: 100%;
+  align-self: center;
+}
+.beside-list{
+  flex-basis: 100%;
+}
+}
+
